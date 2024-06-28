@@ -61,9 +61,9 @@ class MyApp extends StatelessWidget {
             .copyWith(background: lightBackgroundColor),
       ),
       // home: HomeScreen(),
-      initialRoute: '/login',
+      initialRoute: '/home',
       routes: {
-        '/login': (context) => LoginScreen(),
+        // '/login': (context) => LoginScreen(),
         '/home': (context) => HomeScreen(),
         '/all_products': (context) => const FeedsScreen(),
         '/categories': (context) => const CategoriesScreen(),

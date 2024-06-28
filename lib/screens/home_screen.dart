@@ -103,25 +103,25 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: IconlyBold.category,
             ),
             actions: [
-              AppBarIcons(
-                function: () {
-                  Navigator.push(
-                    context,
-                    PageTransition(
-                      type: PageTransitionType.fade,
-                      child: const UsersScreen(),
-                    ),
-                  );
-                },
-                icon: IconlyBold.user3,
-              ),
-              IconButton(
-                icon: const Icon(Icons.logout),
-                onPressed: () {
-                  authProvider.logout();
-                  Navigator.pushReplacementNamed(context, '/login');
-                },
-              ),
+              // AppBarIcons(
+              //   function: () {
+              //     Navigator.push(
+              //       context,
+              //       PageTransition(
+              //         type: PageTransitionType.fade,
+              //         child: const UsersScreen(),
+              //       ),
+              //     );
+              //   },
+              //   icon: IconlyBold.user3,
+              // ),
+              // IconButton(
+              //   icon: const Icon(Icons.logout),
+              //   onPressed: () {
+              //     authProvider.logout();
+              //     Navigator.pushReplacementNamed(context, '/login');
+              //   },
+              // ),
               IconButton(
                 icon: const Icon(Icons.shopping_cart),
                 onPressed: () {
